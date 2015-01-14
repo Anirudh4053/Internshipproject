@@ -1,0 +1,65 @@
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#intro
+{
+    background: url(../match3.jpg) no-repeat center center fixed;
+    height: 90%;
+    width:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative; 
+    box-shadow:10px 10px 10px;
+}
+.navbar-text {
+    float: left;
+    margin-right: 10%;
+    margin-left: 0%;
+    margin-top: 0px;
+  margin-bottom: 5px;
+   
+    font-family:'Trebuchet MS',sans-serif;
+    <!--font-weight:bold;-->
+    font-size:40px;
+  
+  }
+.navbar-default .navbar-text
+{
+  color:#297ACC; 
+    font-size:40px;
+}
+.form-control
+{
+     margin-top: 10px;
+}
+.btn-default
+{
+ margin-top: 10px;   
+}
+.navbar-default {
+    background-color: #EBF5FF;
+    border-color: #030033;
+    box-shadow:10px 10px 10px;
+}
+.text-c 
+{
+    
+    color:#E6E6E6;
+    text-align: center;
+    font-family:'Algerian',sans-serif;
+    position: relative;
+    font-size: 30px;
+}
+.jumbotron
+{
+    background-color: transparent;
+}
+.bt
+{
+ background-color:#2E8AE6;   
+    color: white;
+}
