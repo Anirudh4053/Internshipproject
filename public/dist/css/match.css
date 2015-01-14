@@ -6,7 +6,7 @@ html,body
 #intro
 {
     background: url(../match3.jpg) no-repeat center center fixed;
-    height: 90%;
+    height: 100%;
     width:100%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -62,4 +62,17 @@ html,body
 {
  background-color:#2E8AE6;   
     color: white;
+}
+.active
+{
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.text-c
+{
+    font-family:Helvetica Neue;
+}
+.container
+{
+ margin-bottom:0px;   
 }
