@@ -5,7 +5,7 @@ html,body
 }
 #intro
 {
-    background: url(../match3.jpg) no-repeat center center fixed;
+    background: url(../match4.jpg) no-repeat center center fixed;
     height: 100%;
     width:100%;
     -webkit-background-size: cover;
@@ -15,6 +15,10 @@ html,body
     position: relative; 
     box-shadow:10px 10px 10px;
 }
+.nav-pills>li.active>a:hover{
+  background-color: black;  
+}
+.div.navbar-text.banner
 .navbar-text {
     float: left;
     margin-right: 10%;
@@ -27,6 +31,13 @@ html,body
     font-size:40px;
   
   }
+
+.navbar-text {
+float: left;
+margin-right: 15px;
+margin-left: 15px;
+margin-top: 1px;
+}
 .navbar-default .navbar-text
 {
   color:#297ACC; 
@@ -41,7 +52,7 @@ html,body
  margin-top: 10px;   
 }
 .navbar-default {
-    background-color: #EBF5FF;
+    background-color: #F5DFE5;
     border-color: #030033;
     box-shadow:10px 10px 10px;
 }
